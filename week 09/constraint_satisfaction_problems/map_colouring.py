@@ -24,7 +24,7 @@ class MapColoringCSP:
         return True
 
     def backtracking_search(self):
-        """Entry point for the backtracking algorithm"""
+        
         return self.backtrack(self.assignment)
 
     def backtrack(self, assignment):
